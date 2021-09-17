@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Montserrat:ital,wght@0,500;0,600;1,500&display=swap');
+
+*{
+margin:0;
+}
+.parallax{
+    background-attachment: scroll;
+  }
+
+body, html {
+    height: 100%;
+  ;
+}
+/*landing page */
+#hero{
+    background-image: url(/images/waterdrops.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+#welcome{
+    font-family: 'Lily Script One', cursive;
+    font-size: 400%;
+    text-align: center;
+}
+
+#p1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+#project-title{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 400%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #E0C3FC;
+
+}
+.parallax{
+    background-image: url(/images/project1.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    background-image: url(/images/project2.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    background-image: url(/images/project3.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Project title*/
+#projectpg-tile{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 350%;
+  text-align: center;
+}
+/*about me page*/
+/* About Me 
+---------------------*/
+@media (max-width: 991px) {
+    .about-text {
+      margin-top: 40px;
+    }
+  }
+#aboutme-tile{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 350%;
+  text-align: center;
+}
+
+  .about-text h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+  @media (max-width: 767px) {
+    .about-text h3 {
+      font-size: 35px;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+  .about-text h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;;
+  }
+  @media (max-width: 767px) {
+    .about-text h4 {
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+  .about-text p {
+    font-size: 18px;
+    font-family: Arial, 'Montserrat', sans-serif;;
+  }
+  .about-text p mark {
+    font-weight: 600;
+    color: #3a3973;
+  }
+  .about-text .btn-bar {
+    padding-top: 8px;
+  }
+  .about-text .btn-bar a {
+    min-width: 150px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .about-list {
+    padding-top: 10px;
+  }
+  .about-list .media {
+    padding: 5px 0;
+  }
+  .about-list label {
+    color: #3a3973;
+    font-weight: 600;
+    width: 88px;
+    margin: 0;
+    position: relative;
+  }
+  .about-list label:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 11px;
+    width: 1px;
+    height: 12px;
+    background: #3a3973;
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    margin: auto;
+    opacity: 0.5;
+  }
+  .about-list p {
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  .about-img {
+    box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    background: #ffffff;
+  }
+  @media (max-width: 991px) {
+    .about-img {
+      margin-top: 30px;
+    }
+  }
+  .counter-section {
+    padding: 40px 20px;
+  }
+  .counter-section .count-data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .counter-section .count {
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 10px;
+  }
+  .counter-section p {
+    font-weight: 500;
+    margin: 0;
+    color: #fe4f6c;
+  }
+  .theme-color {
+      color: #757BC8;
+  }
+  
+  .section {
+      padding: 100px 0;
+      position: relative;
+  }
+ 
+  .px-btn.theme {
+      background: #fe4f6c;
+      color: #ffffff;
+      border: 2px solid #fe4f6c;
+  }
+  .px-btn {
+      padding: 0 20px;
+      line-height: 42px;
+      border: 2px solid transparent;
+      position: relative;
+      display: inline-block;
+      background: none;
+      border: none;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
+  }
+  
+  .px-btn.theme-t {
+      background: transparent;
+      border: 2px solid #fe4f6c;
+      color: #fe4f6c;
+  }
+  
+/*Contact*/
+#contactme-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 350%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#contactpg-h3{
+ font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  text-align: left;
+  margin-top: 5px;
+  color: #3a3973;
+  text-shadow: 50px gray;
+}

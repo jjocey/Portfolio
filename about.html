@@ -11,19 +11,19 @@
     <!--Local CSS link-->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="CSS/all.min.css"><script src="https://kit.fontawesome.com/7d8795e817.js" crossorigin="anonymous"></script>
-    <title>daily challenge</title>
+    <title>Portfolio</title>
   </head>
 
   <body>
  <!--navabar-->
- <nav class="navbar text-white fixed-top" style="background-color:#CBB2FE;">
+ <nav class="navbar text-white" style="background-color:#CBB2FE;">
   <div class="container-fluid">
     <a class="navbar-brand" href="/index.html">
       <img src="/images/logo2.png" alt="logo" width="70" height="65">
     </a>
   <ul class="nav nav-pills justify-content-end">
   <li class="nav-item">
-      <a class="nav-link active text-white" style="background-color:#E0C3FC;" aria-current="page" href="/about.html">About</a>
+      <a class="nav-link active text-white" style="background-color: #E0C3FC;" aria-current="page" href="/about.html">About</a>
   </li>
   <li class="nav-item">
       <a class="nav-link text-white" href="/projects.html">Projects</a>
@@ -33,37 +33,34 @@
   </li>
   </ul>
 </nav>
- 
-<!--jumbotron-->
-<div id="hero" class="container-fluid align-items-center py-5 d-flex flex-column justify-content-center">  
-  <h1 id="welcome" class="text-white">Hi, my name is Jocelyn</h1>
-  <p id="p1" class="text-white"> I am a web designer with an interest in UI. Join me on my career journey.</p>
-</div>
 
-<!--project title-->
-<div class="mt-2">
-  <h1 id="project-title">Projects</h1>
+<!--content-->
+<div class=" mt-0 container-fluid align-items-center py-5 d-flex flex-column justify-content-center" style="background-color: #F5ECFE">
+  <h1 id="aboutme-tile">About me</h1>
 </div>
-<!--Parallax-->
-<div class="parallax">
-  <div id="paragraph1" class="container mt-0 align-items-center justify-content-center"> 
-  <h1 class="text-center text-light p-5 display-4">Wireframing</h1>
+<section class="section about-section" style="background-color: #F5ECFE" id="about">
+  <div class="container">
+      <div class="row align-items-center justify-content-around flex-row-reverse">
+          <div class="col-lg-6">
+              <div class="about-text">
+                  <h3 class="dark-color">I am pleased you want to learn more about me.</h3>
+                  <h4 class="theme-color">UI / UX Designer &amp; Web Developer</h4>
+                  <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
+                  <p>When I am not designing I enjoy taking time off to be with my family. We love dancing, especially when it comes to dancing banda, a mexican music genre.</p>
+                  <div class="btn-bar">
+                      <a class="px-btn theme" href="#">View Projects</a>
+                      <a class="px-btn theme-t" href="#">Download CV</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-5 text-center">
+              <div class="about-img">
+                  <img src="/images/me.jpg">
+              </div>
+          </div>
+      </div>
   </div>
-</div>
-
-<!--Parallax2-->
-<div class="parallax2">
-  <div id="paragraph" class="container"> 
-  <h1 class="text-center text-light p-5 display-4">Prototype</h1>
-  </div>
-</div>
-
-<!--Parallax3-->
-<div class="parallax3">
-  <div id="paragraph" class="container"> 
-  <h1 class="text-center text-light p-5 display-4">Coding</h1>
-  </div>
-</div>
+</section>
 
 <!--footer-->
 <footer class="text-center text-white" style="background-color: #CBB2FE;">
@@ -95,6 +92,8 @@
   <div class="text-center p-3" style="background-color: #CBB2FE;"> © 2021 Jocelyn</div>
   <!-- Copyright -->
 </footer>
+
+
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

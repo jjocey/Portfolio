@@ -16,54 +16,63 @@
 
   <body>
  <!--navabar-->
- <nav class="navbar text-white fixed-top" style="background-color:#CBB2FE;">
+ <nav class="navbar text-white" style="background-color:#CBB2FE;">
   <div class="container-fluid">
     <a class="navbar-brand" href="/index.html">
       <img src="/images/logo2.png" alt="logo" width="70" height="65">
     </a>
   <ul class="nav nav-pills justify-content-end">
   <li class="nav-item">
-      <a class="nav-link active text-white" style="background-color:#E0C3FC;" aria-current="page" href="/about.html">About</a>
+    <a class="nav-link text-white" href="/about.html">About</a>
   </li>
   <li class="nav-item">
       <a class="nav-link text-white" href="/projects.html">Projects</a>
   </li>
   <li class="nav-item">
-      <a class="nav-link text-white" href="/contact.html">Contact</a>
+    <a class="nav-link active text-white" style="background-color:#E0C3FC;" aria-current="page" href="/contact.html">Contact</a>
   </li>
   </ul>
 </nav>
+
+ <!-- contact section start -->
+  <div class="mt-0 container-fluid align-items-center py-2 d-flex flex-column justify-content-center" style="background-color: #F5ECFE">
+    <h1 id="contactme-title" class="mt-5">Contact me</h1>
+  </div>
  
-<!--jumbotron-->
-<div id="hero" class="container-fluid align-items-center py-5 d-flex flex-column justify-content-center">  
-  <h1 id="welcome" class="text-white">Hi, my name is Jocelyn</h1>
-  <p id="p1" class="text-white"> I am a web designer with an interest in UI. Join me on my career journey.</p>
-</div>
-
-<!--project title-->
-<div class="mt-2">
-  <h1 id="project-title">Projects</h1>
-</div>
-<!--Parallax-->
-<div class="parallax">
-  <div id="paragraph1" class="container mt-0 align-items-center justify-content-center"> 
-  <h1 class="text-center text-light p-5 display-4">Wireframing</h1>
+<!--Content 1-->
+<section class="section about-section" style="background-color: #F5ECFE" id="about">
+  <div class="container">
+      <div class="row align-items-center justify-content-around flex-row-reverse">
+          <div class="col-lg-6">
+            <div class="about-text"></div>
+                  <h3 id="contactpg-h3" class="mb-3">Get in touch with me</h3>
+            <form>
+              <div class="form-group mt-3 mb-3">
+                <input type="text" class="form-control" name="" value="" placeholder="Name">
+              </div>
+              <div class="form-group mb-3">
+                <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+              </div>
+              <div class="form-group mb-3">
+                <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+              </div>
+              <div class="form-group mb-3">
+                <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+              </div>
+              <button class="btn btn-default" type="submit" name="button">
+                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-5 text-center">
+              <div class="about-img">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201290.7449783307!2d-121.44196285689128!3d37.97321104699293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900d737b442181%3A0x5876f5d1044fcbd8!2sStockton%2C%20CA!5e0!3m2!1sen!2sus!4v1631769291356!5m2!1sen!2sus" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+          </div>
+      </div>
   </div>
-</div>
+</section>
 
-<!--Parallax2-->
-<div class="parallax2">
-  <div id="paragraph" class="container"> 
-  <h1 class="text-center text-light p-5 display-4">Prototype</h1>
-  </div>
-</div>
-
-<!--Parallax3-->
-<div class="parallax3">
-  <div id="paragraph" class="container"> 
-  <h1 class="text-center text-light p-5 display-4">Coding</h1>
-  </div>
-</div>
 
 <!--footer-->
 <footer class="text-center text-white" style="background-color: #CBB2FE;">
@@ -101,3 +110,4 @@
 
   </body>
 </html>
+
